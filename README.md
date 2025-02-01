@@ -9,6 +9,8 @@ This project leverages **Next.js API routes** (`pages/api/handleData.js`) to cre
 It combines **React, Next.js, Tailwind CSS, and React-Bootstrap** to deliver a dynamic and user-friendly interface.  
 With just one click, users can generate and explore recipe suggestions—perfect for busy individuals looking for quick meal ideas.
 
+![Back-end and Front-end Communication](./public/BackendSolution.png)
+
 ## 🌐 API Reference
 
 ### 🔹 Get Recipes
