@@ -1,9 +1,6 @@
 "use client";
-import React from "react";
-import { useState } from "react";
-import Button from "react-bootstrap/Button";
-import ButtonGroup from "react-bootstrap/ButtonGroup";
-import ButtonToolbar from "react-bootstrap/ButtonToolbar";
+import React, { useState } from "react";
+import { Button, ButtonGroup, ButtonToolbar } from "react-bootstrap";
 
 function IngredientPicker({ setSelectedIngredient }) {
   // initializing state to allow search text box
@@ -11,8 +8,9 @@ function IngredientPicker({ setSelectedIngredient }) {
 
   function handleClick(e) {
     const selectedIngredient = e.target.value;
-    console.log(`user has selected to search for ${selectedIngredient}`); //sometimes this logs before it has changed!
-    setSelectedIngredient(selectedIngredient); // Call function from parent
+    console.log(`user has selected to search for ${selectedIngredient}`);
+    // Call function from parent
+    setSelectedIngredient(selectedIngredient);
   }
   return (
     <div className="flex items-center justify-center mb-6">

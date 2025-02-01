@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import ExampleCarouselImage from "../CarouselImage/ExampleCarouselImage";
 import RecipeCard from "../RecipeCards/RecipeCard";
 
 function RecipeCarousel({ recipes }) {
