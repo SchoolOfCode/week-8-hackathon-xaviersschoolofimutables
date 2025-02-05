@@ -6,21 +6,20 @@ function Header() {
     <div>
       <Navbar
         expand="lg"
-        className="bg-slate-700 text-white shadow-md" // Darker slate color with shadow
-        // style={{ height: "7rem" }} // Set fixed height
+        className="h-28 p-4 bg-slate-700 text-white shadow-md"
       >
         <Container>
           {/* Tasty Ten Branding */}
           <Navbar.Brand
             href="#home"
-            className="text-2xl font-bold text-white uppercase tracking-widest border-b-2 border-transparent hover:border-yellow-400 transition-all duration-300"
+            className="text-2xl font-bold text-white uppercase tracking-widest border-b-2 hover:border-yellow-400 transition-all duration-300"
           >
             Tasty Ten
           </Navbar.Brand>
 
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
-            className="border-none"
+            className="border-none outline-none focus:ring focus:ring-yellow-400 p-2 rounded-md"
           />
 
           <Navbar.Collapse id="basic-navbar-nav">
@@ -44,26 +43,26 @@ function Header() {
               >
                 <NavDropdown.Item
                   href="#action/3.1"
-                  className="hover:bg-yellow-400 hover:text-white"
+                  className="text-black hover:bg-yellow-400 hover:text-white transition-colors duration-300"
                 >
                   Action
                 </NavDropdown.Item>
                 <NavDropdown.Item
                   href="#action/3.2"
-                  className="hover:bg-yellow-400 hover:text-white"
+                  className="text-black hover:bg-yellow-400 hover:text-white transition-colors duration-300"
                 >
                   Another Action
                 </NavDropdown.Item>
                 <NavDropdown.Item
                   href="#action/3.3"
-                  className="hover:bg-yellow-400 hover:text-white"
+                  className="text-black hover:bg-yellow-400 hover:text-white transition-colors duration-300"
                 >
                   Something
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item
                   href="#action/3.4"
-                  className="hover:bg-yellow-400 hover:text-white"
+                  className="text-black hover:bg-yellow-400 hover:text-white transition-colors duration-300"
                 >
                   Separated Link
                 </NavDropdown.Item>
@@ -72,12 +71,12 @@ function Header() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <div className="flex-col justify-center text-center pt-5">
-        <h2 className="text-2xl font-extrabold text-yellow-950 uppercase tracking-widest border-b-2 border-transparent hover:border-yellow-400 transition-all duration-300 py-2">
+      <div className="flex flex-col items-center text-center pt-5">
+        <h2 className="text-2xl font-extrabold text-yellow-950 uppercase tracking-widest leading-relaxed border-b-2 hover:border-yellow-400 transition-all duration-300 py-2">
           Your Next Meal Starts Here.
         </h2>
-        <h2 className="text-2xl font-bold text-yellow-950 uppercase tracking-widest border-b-2 border-transparent hover:border-yellow-400 transition-all duration-300">
-          10 Recipes, One Click. 🥄
+        <h2 className="text-2xl font-bold text-yellow-950 uppercase tracking-widest leading-relaxed border-b-2 hover:border-yellow-400 transition-all duration-300">
+          Choose Your Ingredient, 10 Recipes, One Click. 🥄
         </h2>
       </div>
     </div>
