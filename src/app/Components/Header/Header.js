@@ -6,10 +6,9 @@ function Header() {
     <div>
       <Navbar
         expand="lg"
-        className="bg-slate-700 text-white shadow-md" // Darker slate color with shadow
-        // style={{ height: "7rem" }} // Set fixed height
+        className="bg-slate-700 text-white shadow-md style={{ minHeight: '80px' }}"
       >
-        <Container>
+        <Container className="py-3">
           {/* Tasty Ten Branding */}
           <Navbar.Brand
             href="#home"
@@ -77,7 +76,7 @@ function Header() {
           Your Next Meal Starts Here.
         </h2>
         <h2 className="text-2xl font-bold text-yellow-950 uppercase tracking-widest border-b-2 border-transparent hover:border-yellow-400 transition-all duration-300">
-          10 Recipes, One Click. 🥄
+          Choose Your Indgredient, 10 Recipes, One Click. 🥄
         </h2>
       </div>
     </div>
